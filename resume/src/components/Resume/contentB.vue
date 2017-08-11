@@ -4,10 +4,10 @@
             <div class="resume" v-show='showb' :key='1' animate-delay='0.3s'><img src="../../assets/images/resume3.png" alt=""></div>
         </transition>
         <transition v-on:before-enter="beforeEnter" enter-active-class='animated flipInX' leave-active-class='' appear appear-enter-class='animated flipInX'>
-            <div class='headpic' v-show='showb' :key='2' animate-delay='0.6s'><img src="../../assets/images/self.jpg" alt=""></div>
+            <div class='headpic' v-show='showb' :key='2' animate-delay='0.6s'><img src="../../assets/images/zuozhu.jpg" alt=""></div>
         </transition>
         <transition v-on:before-enter="beforeEnter" enter-active-class='animated pulse' leave-active-class='' appear appear-enter-class='animated pulse'>
-            <p class="name" v-show='showb' :key='3' animate-delay='0.2s'>祝 文 通</p>
+            <p class="name" v-show='showb' :key='3' animate-delay='0.2s'>z  w  t</p>
         </transition>
         <transition v-on:before-enter="beforeEnter" enter-active-class='animated fadeInLeft' leave-active-class='' appear appear-enter-class='animated fadeInLeft'>
             <p class="exp" v-show='showb' :key='4' animate-delay='0.2s'>一 年 经 验</p>
