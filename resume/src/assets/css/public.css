@@ -1,0 +1,48 @@
+p {
+    font-size: 0.2rem;
+    color: #fff;
+    font-family: 'Microsoft YaHei';
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.resume img {
+    height: 0.5rem;
+}
+
+.tit {
+    width: 1.2rem;
+    height: 0.3rem;
+    background: orange;
+    text-align: center;
+    line-height: 0.3rem;
+    margin: 0.3rem 0 0 0.3rem;
+}
+
+.sub_tit {
+    font-size: 0.16rem;
+    line-height: 0.26rem;
+    margin: 0 0.2rem 0 0.3rem;
+}
+
+@media screen and (min-width:768px) {
+    p {
+        font-size: 0.12rem;
+    }
+    .resume img {
+        height: 0.4rem;
+    }
+    .tit {
+        width: 0.8rem;
+        height: 0.22rem;
+        line-height: 0.22rem;
+    }
+    .sub_tit {
+        font-size: 0.12rem;
+        line-height: 0.22rem;
+    }
+}
