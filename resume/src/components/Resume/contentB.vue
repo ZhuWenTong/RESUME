@@ -32,9 +32,9 @@ export default {
         showb:Boolean
     },
     methods: {
-        // 设置过渡进入之前的组件状态
+        //设置过渡进入之前的组件状态
         beforeEnter: (el) => {
-            // console.log(el.getAttribute('animate-delay'));
+            //console.log(el.getAttribute('animate-delay'));
             var delay = el.getAttribute('animate-delay');
             el.style.animationDelay = delay;
         }
