@@ -59,46 +59,15 @@ export default {
             //autoplay:3000,
             onSlideChangeEnd: (swiper) => {
                 //console.log(swiper.activeIndex)
-                if (swiper.activeIndex == 0) {
-                    self.show = true;
-                } else {
-                    self.show = false;
-                }
-                if (swiper.activeIndex == 1) {
-                    self.showb = true
-                } else {
-                    self.showb = false;
-                }
-                if (swiper.activeIndex == 2) {
-                    self.showc = true
-                } else {
-                    self.showc = false;
-                }
-                if (swiper.activeIndex == 3) {
-                    self.showd = true
-                } else {
-                    self.showd = false;
-                }
-                if (swiper.activeIndex == 4) {
-                    self.showe = true
-                } else {
-                    self.showe = false;
-                }
-                if (swiper.activeIndex == 5) {
-                    self.showf = true
-                } else {
-                    self.showf = false;
-                }
-                if (swiper.activeIndex == 6) {
-                    self.showg = true
-                } else {
-                    self.showg = false;
-                }
-                if (swiper.activeIndex == 7) {
-                    self.showh = true
-                } else {
-                    self.showh = false;
-                }
+                let activeIndex = swiper.activeIndex;
+                self.show = activeIndex == 0 ? true : false;
+                self.showb = activeIndex == 1 ? true : false;
+                self.showc = activeIndex == 2 ? true : false;
+                self.showd = activeIndex == 3 ? true : false;
+                self.showe = activeIndex == 4 ? true : false;
+                self.showf = activeIndex == 5 ? true : false;
+                self.showg = activeIndex == 6 ? true : false;
+                self.showh = activeIndex == 7 ? true : false;
             }
         })
     },
